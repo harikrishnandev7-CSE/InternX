@@ -20,7 +20,7 @@ import { ProtectedRoute } from './routes/ProtectedRoute';
 import { RoleRoute } from './routes/RoleRoute';
 import { useAuth } from './hooks/useAuth';
 import { RegisterStudentPage } from "./pages/public/RegisterStudentPage";
-import { CompanyRegisterPage } from "./pages/public/RegisterCompanyPage";
+import { RegisterCompanyPage } from "./pages/public/RegisterCompanyPage";
 import { ForgotPasswordPage } from "./pages/public/ForgotPasswordPage";
 import { OTPVerificationPage } from "./pages/public/OTPVerificationPage";
 import { ResetPasswordPage } from "./pages/public/ResetPasswordPage";
@@ -53,7 +53,7 @@ export default function App() {
             <Route path="/admin/login" element={<AdminLoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/register/student" element={<RegisterStudentPage />} />
-            <Route path="/register/company" element={<CompanyRegisterPage />}/>
+            <Route path="/register/company" element={<RegisterCompanyPage />}/>
             <Route path="/internships" element={<InternshipListPage />} />
             <Route path="/internship/:id" element={<InternshipDetailPage />} />
             <Route path="/forgot-password" element={<ForgotPasswordPage />} />

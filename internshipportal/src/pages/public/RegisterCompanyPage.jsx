@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import { registerCompany } from "../../services/authService";
 
-export function CompanyRegisterPage() {
+export function RegisterCompanyPage() {
   const navigate = useNavigate();
 
   // State management for form inputs
