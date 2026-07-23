@@ -80,7 +80,7 @@ export const getAdminInternships = (search = "", isActive = null, page = 1, limi
 };
 
 export const toggleInternshipActive = (internshipId, isActive) => {
-  return api.put(`/admin/internships/${internship_id}/active?is_active=${isActive}`);
+  return api.put(`/admin/internships/${internshipId}/active?is_active=${isActive}`);
 };
 
 export const deleteInternship = (internshipId) => {
