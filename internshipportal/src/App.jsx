@@ -20,7 +20,7 @@ import { ProtectedRoute } from './routes/ProtectedRoute';
 import { RoleRoute } from './routes/RoleRoute';
 import { useAuth } from './hooks/useAuth';
 import { RegisterStudentPage } from "./pages/public/RegisterStudentPage";
-import { CompanyRegisterPage } from "./pages/public/RegisterCompanyPage";
+import { CompanyRegisterPage } from "./pages/public/CompanyRegisterPage";
 import { ForgotPasswordPage } from "./pages/public/ForgotPasswordPage";
 import { OTPVerificationPage } from "./pages/public/OTPVerificationPage";
 import { ResetPasswordPage } from "./pages/public/ResetPasswordPage";
